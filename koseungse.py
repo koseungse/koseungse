@@ -131,7 +131,7 @@ print(df.describe())
 import pandas as pd
 
 # 데이터 불러오기
-df = pd.read_csv("data/construction_machine_data.csv")
+df = pd.read_csv("construction_machine_data.csv")
 
 # 전체 구조 확인
 print("데이터 크기(행, 열):", df.shape)
@@ -175,7 +175,7 @@ plt.rcParams["axes.unicode_minus"] = False
 plt.rc("font", family = "NanumBarunGothic")
 
 # 데이터 불러오기
-# df = pd.read_csv("data/construction_machine_data.csv") # 이전에 이미 실행되었습니다.
+# df = pd.read_csv("construction_machine_data.csv") # 이전에 이미 실행되었습니다.
 
 plt.figure(figsize=(8,5))
 
@@ -331,7 +331,7 @@ import pandas as pd
 
 # 이전에 데이터를 로드했지만, 명확성을 위해 다시 로드합니다.
 # 실제 노트북 환경에서는 이전에 로드한 df 변수를 그대로 사용하면 됩니다.
-df = pd.read_csv("data/construction_machine_data.csv")
+df = pd.read_csv("construction_machine_data.csv")
 
 plt.figure(figsize=(10, 6))
 plt.hist(df['Remaining_Useful_Life'], bins=50, color='skyblue', edgecolor='black')
@@ -398,7 +398,7 @@ import seaborn as sns
 import pandas as pd
 
 # 데이터가 로드된 df 변수가 있다고 가정합니다.
-# df = pd.read_csv("data/construction_machine_data.csv")
+# df = pd.read_csv("construction_machine_data.csv")
 
 # 분석할 연속형 변수 리스트
 numeric_cols = ['Operating_Hours', 'Vibration', 'Temperature', 'Pressure']
@@ -435,7 +435,7 @@ import seaborn as sns
 import pandas as pd
 
 # 데이터가 로드된 df 변수가 있다고 가정합니다.
-# df = pd.read_csv("data/construction_machine_data.csv")
+# df = pd.read_csv("construction_machine_data.csv")
 
 plt.figure(figsize=(12, 8))
 
@@ -485,7 +485,7 @@ import seaborn as sns
 import pandas as pd
 
 # 데이터가 로드된 df 변수가 있다고 가정합니다.
-# df = pd.read_csv("data/construction_machine_data.csv")
+# df = pd.read_csv("construction_machine_data.csv")
 
 plt.figure(figsize=(12, 8))
 
