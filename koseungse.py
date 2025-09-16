@@ -77,7 +77,7 @@
 import pandas as pd
 
 # 데이터 불러오기
-df = pd.read_csv("data/construction_machine_data.csv")
+df = pd.read_csv("construction_machine_data.csv")
 
 # 1. 데이터의 행과 열 수 확인
 print("데이터 크기(행, 열):", df.shape)
